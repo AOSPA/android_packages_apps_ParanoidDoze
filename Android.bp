@@ -14,6 +14,9 @@
 
 android_app {
     name: "ParanoidDoze",
+    defaults: [
+        "SettingsLibDefaults",
+    ],
     certificate: "platform",
     srcs: ["src/**/*.java"],
     platform_apis: true,
