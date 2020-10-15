@@ -24,6 +24,8 @@ import android.content.pm.PackageManager;
 import android.hardware.display.AmbientDisplayConfiguration;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
+import android.os.PowerManager;
+import android.os.SystemClock;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.util.Log;
@@ -90,10 +92,16 @@ public final class DozeUtils {
                 DOZE_ENABLED, 1) != 0;
     }
 
-    protected static void launchDozePulse(Context context) {
-        if (DEBUG) Log.d(TAG, "Launch doze pulse");
-        context.sendBroadcastAsUser(new Intent(DOZE_INTENT),
-                new UserHandle(UserHandle.USER_CURRENT));
+    protected static void wakeOrLaunchDozePulse(Context context) {
+        if (isWakeOnGestureEnabled(context)) {
+            if (DEBUG) Log.d(TAG, "Wake up display");
+            PowerManager powerManager = context.getSystemService(PowerManager.class);
+            powerManager.wakeUp(SystemClock.uptimeMillis(), PowerManager.WAKE_REASON_GESTURE, TAG);
+        } else {
+            if (DEBUG) Log.d(TAG, "Launch doze pulse");
+            context.sendBroadcastAsUser(
+                    new Intent(DOZE_INTENT), new UserHandle(UserHandle.USER_CURRENT));
+        }
     }
 
     protected static boolean enableAlwaysOn(Context context, boolean enable) {
