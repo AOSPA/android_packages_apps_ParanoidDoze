@@ -26,13 +26,13 @@ import android.util.Log;
 import co.aospa.doze.DozeUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
-
     private static final boolean DEBUG = false;
     private static final String TAG = "ParanoidDoze";
 
     @Override
     public void onReceive(final Context context, Intent intent) {
-        if (DEBUG) Log.d(TAG, "Received boot completed intent");
+        if (DEBUG)
+            Log.d(TAG, "Received boot completed intent");
         DozeUtils.checkDozeService(context);
     }
 }
