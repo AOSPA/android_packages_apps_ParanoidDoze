@@ -27,11 +27,11 @@
         android:persistent="false" />
 
     <SwitchPreference
-        android:key="gesture_raise_to_wake"
-        android:defaultValue="true"
+        android:key="wake_on_gesture"
+        android:defaultValue="false"
         android:icon="@drawable/ic_doze_wake"
-        android:title="@string/wake_gesture_title"
-        android:summary="@string/wake_gesture_summary" />
+        android:title="@string/wake_on_gesture_title"
+        android:summary="@string/wake_on_gesture_summary" />
 
     <PreferenceCategory
         android:key="pickup_sensor"
