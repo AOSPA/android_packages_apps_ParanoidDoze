@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52d65848_064ad40a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-01-29T20:36:55Z",
+      "side": 1,
+      "message": "Why do we need that? We don\u0027t have any jni code here which needs to be formatted",
+      "revId": "5567a3e4cb63c8f9cf23434ede27449f7399e6b2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
