@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "120ae7ee_ce734604",
+        "filename": "src/co/aospa/doze/DozeUtils.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-01-29T20:44:08Z",
+      "side": 1,
+      "message": "Something went wrong here",
+      "revId": "804ee85690c11056d87b7dd205872e7e29b06589",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d6588d1_6198cfee",
+        "filename": "src/co/aospa/doze/PickupSensor.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-01-29T20:44:08Z",
+      "side": 1,
+      "message": "Not sure if we even need brackets here",
+      "revId": "804ee85690c11056d87b7dd205872e7e29b06589",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "23e66904_a802b70b",
+        "filename": "src/co/aospa/doze/ProximitySensor.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-01-29T20:44:08Z",
+      "side": 1,
+      "message": "https://source.android.com/setup/contribute/code-style#use-standard-brace-style",
+      "revId": "804ee85690c11056d87b7dd205872e7e29b06589",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b8cabc62_493e242f",
+        "filename": "src/co/aospa/doze/ProximitySensor.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-01-29T20:44:08Z",
+      "side": 1,
+      "message": "Same here and at the other ifs in the files you edited",
+      "revId": "804ee85690c11056d87b7dd205872e7e29b06589",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
