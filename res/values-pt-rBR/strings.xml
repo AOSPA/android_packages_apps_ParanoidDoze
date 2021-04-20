@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="switch_bar_on">Ativado</string>
+    <string name="switch_bar_off">Desativado</string>
+    <string name="doze_settings_app_name">Paranoid Doze</string>
+    <string name="ambient_display_title">Exibição ambiente</string>
+    <string name="ambient_display_summary">Ativar tela ao receber notificações</string>
+    <string name="ambient_display_always_on_title">Sempre mostrar hora e informações</string>
+    <string name="ambient_display_always_on_summary">Mostra hora, ícone de notificações e outras informações. Maior uso da bateria.</string>
+    <string name="pickup_sensor_title">Sensor de movimento</string>
+    <string name="proximity_sensor_title">Sensor de proximidade</string>
+    <string name="hand_wave_gesture_title">Movimento da mão</string>
+    <string name="hand_wave_gesture_summary">Mostrar notificações ao agitar a mão</string>
+    <string name="pick_up_gesture_title">Pegar</string>
+    <string name="pick_up_gesture_summary">Mostrar notificações ao pegar o dispositivo</string>
+    <string name="wake_gesture_title">Acordar o dispositivo</string>
+    <string name="wake_gesture_summary">Acordar o dispositivo ao invés de pulsar notificações</string>
+    <string name="pocket_gesture_title">Bolso</string>
+    <string name="pocket_gesture_summary">Mostrar notificações ao remover do bolso</string>
+    <string name="dialog_ok">OK</string>
+    <string name="doze_settings_help_title">Ajuda</string>
+    <string name="doze_settings_help_text">Esses recursos usam eventos de sensor para mostrar notificações durante a hibernação do dispositivo. O sensor escolhido é ativado somente quando o dispositivo recebe uma notificação, isso auxilia na redução do consumo de bateria. Há também uma opção para ativar o sensor escolhido assim que a tela for apagada, isso aumentará o uso de bateria.</string>
+</resources>
