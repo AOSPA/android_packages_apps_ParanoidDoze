@@ -43,7 +43,7 @@
         </receiver>
 
         <service android:name=".DozeService"
-                 android:permission="XiaomiDozeService">
+                 android:permission="ParanoidDozeService">
         </service>
 
         <activity
