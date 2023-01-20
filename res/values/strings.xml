@@ -21,7 +21,7 @@
     <string name="summary_empty" translatable="false"></string>
 
     <!-- App Name -->
-    <string name="doze_settings_app_name">Doze settings</string>
+    <string name="doze_settings_app_name">Paranoid Doze</string>
 
     <!-- Ambient Display -->
     <string name="ambient_display_enable">Use ambient display</string>
