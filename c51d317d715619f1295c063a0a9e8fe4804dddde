@@ -16,6 +16,24 @@
       "message": "error: packages/apps/ParanoidDoze/Android.bp:15:1: \"ParanoidDoze\" depends on undefined module \"co.aospa.resources\"\n\nmerge after its tracked",
       "revId": "c51d317d715619f1295c063a0a9e8fe4804dddde",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0547fde9_22f35e7d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000785
+      },
+      "writtenOn": "2023-01-25T05:34:25Z",
+      "side": 1,
+      "message": "https://gerrit.aospa.co/#/c/27139",
+      "parentUuid": "7f80d134_6fc9ea8d",
+      "revId": "c51d317d715619f1295c063a0a9e8fe4804dddde",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
