@@ -24,7 +24,7 @@ In order to have the proper options showing up you have to define the device rel
 These properties are not representative of all OnePlus/Xiaomi devices and serve as an example, you'll need to reconfirm which ones your device uses.
 - `Oplus devices`
 ```bash
-    ro.sensor.value=0
+    ro.sensor.pickup.value=0
     ro.sensor.pickup=oneplus.sensor.pickup
 ```
 - `Xiaomi`
