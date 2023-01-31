@@ -29,7 +29,7 @@ These properties are not representative of all OnePlus/Xiaomi devices and serve 
 - `Oplus devices`
 ```
     ro.sensor.pickup=android.sensor.tilt_detector
-    ro.sensor.value=0
+    ro.sensor.pickup.value=0
 ```
 - `Xiaomi devices`
 ```
