@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af189ebf_49d019ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2023-02-15T09:37:49Z",
+      "side": 1,
+      "message": "Code needs rework. MIN_WAKEUP_INTERVAL_MS is not even used anywhere",
+      "revId": "e06f3f63000a20b7af13b5d2a4c3ae4384676507",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
