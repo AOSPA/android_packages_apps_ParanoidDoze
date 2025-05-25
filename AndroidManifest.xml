@@ -58,9 +58,12 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:value="@string/ambient_display_summary" />
-             <meta-data
+            <meta-data
                 android:name="com.android.settings.order"
                 android:value="1001" />
+            <meta-data
+                android:name="com.android.settings.profile"
+                android:value="primary_profile_only" />
         </activity>
 
     </application>
